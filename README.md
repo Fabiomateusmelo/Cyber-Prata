@@ -1,4 +1,4 @@
-# CyberPrata
+Alterações da maquina para servidor Git.
 
 GitBash
 
