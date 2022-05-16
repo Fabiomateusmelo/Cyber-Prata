@@ -1,4 +1,4 @@
-Alterações da maquina para servidor(push)
+Alterações maquina para servidor(push)
 
 Pelo GitBash:
 
