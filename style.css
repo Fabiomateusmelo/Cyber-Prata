@@ -115,7 +115,7 @@ section .content p {
 
   text-decoration: none;
 
-  transition: background 300ms;
+  transition: background 400ms;
 }
 
 .button:hover {
@@ -398,6 +398,10 @@ body.menu-expanded button path {
   gap: 0.8rem;
 }
 
+#contact img {
+  margin-bottom: -10.5rem;
+}
+
 /*============== FOOTER ===============*/
 footer {
   background-color: var(--primary-color);
@@ -443,7 +447,7 @@ footer .social-links {
   visibility: hidden;
 
   transform: translateY(100%);
-  transition: 300ms;
+  transition: 400ms;
 }
 
 #backToTopButton.show {
@@ -571,7 +575,7 @@ footer .social-links {
 
     display: block;
 
-    transition: width 0.3s;
+    transition: width 0.4s;
   }
 
   nav#navigation.scroll .menu li a::after {
@@ -641,7 +645,7 @@ footer .social-links {
   }
 
   #home img {
-    width: 42rem;
+    width: 35rem;
   }
 
   #services h2 {
@@ -687,8 +691,12 @@ footer .social-links {
     width: 40.4rem;
   }
 
+  #contact img {
+    margin-bottom: -16.5rem;
+  }
+
   footer {
-    padding-block: 8rem;
+    padding-block: 5rem;
   }
 
   footer .wrapper {
