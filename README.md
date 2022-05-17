@@ -17,3 +17,5 @@ cd (PastaDoProjetoNoPC)
 git log --oneline(ver todas as alterações no PC)
 
 git pull(puxar todas as alterações do servidor para PC)
+
+git status(ver se os documentos estão pareados servidor/maquina)
