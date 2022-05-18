@@ -376,8 +376,15 @@ body.menu-expanded button path {
 }
 
 /*============== CONTACT ===============*/
+
 #contact {
   text-align: left;
+  padding-bottom: 0;
+}
+
+#contact img {
+  display: block;
+  margin-inline: auto;
 }
 
 #contact header {
@@ -396,10 +403,6 @@ body.menu-expanded button path {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-}
-
-#contact img {
-  margin-bottom: -10.5rem;
 }
 
 /*============== FOOTER ===============*/
@@ -689,10 +692,6 @@ footer .social-links {
 
   #contact h2 {
     width: 40.4rem;
-  }
-
-  #contact img {
-    margin-bottom: -16.5rem;
   }
 
   footer {
