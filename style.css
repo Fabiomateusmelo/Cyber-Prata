@@ -10,7 +10,7 @@
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
-  --brand-beige: hsl(194, 100%, 95%);
+  --brand-beige: hsl(193, 100%, 97%);
   --brand-light: hsl(321, 100%, 93%);
   --bg-light: hsl(323, 100%, 97%);
   --brand-dark: hsl(272, 84%, 53%);
@@ -408,7 +408,7 @@ body.menu-expanded button path {
 /*============== FOOTER ===============*/
 footer {
   background-color: var(--primary-color);
-  padding-block: 4rem;
+  padding-block: 1.6rem;
 
   text-align: left;
 
@@ -417,12 +417,11 @@ footer {
 
 footer .logo {
   display: inline-block;
-  margin-bottom: 0.5rem;
 }
 
 footer .logo img {
-  width: 15rem;
-  height: 10rem;
+  width: 12rem;
+  height: 8rem;
 }
 
 footer .logo path {
@@ -695,7 +694,7 @@ footer .social-links {
   }
 
   footer {
-    padding-block: 5rem;
+    padding-top: 1.6rem;
   }
 
   footer .wrapper {
