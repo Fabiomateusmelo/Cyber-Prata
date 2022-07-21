@@ -1,4 +1,5 @@
-window.addEventListener('scroll', onScroll)
+window.addEventListener('scroll', onScroll);
+const navigation = document.querySelector('#navigation');
 
 onScroll()
 function onScroll() {
@@ -44,7 +45,7 @@ function showNavOnScroll() {
 }
 
 function showBackToTopButtonOnScroll() {
-  if (scrollY > 600) {
+  if (scrollY > 550) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
@@ -76,4 +77,4 @@ ScrollReveal({
   #contact,
   #contact header,
   #contact .content
-  `)
+  `);
