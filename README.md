@@ -2,7 +2,7 @@
 
 **Alterações maquina para servidor(push)**
 
-git clone git@github.com:Cetobeta/CyberPrata.git
+git clone git@github.com:Fabiomateusmelo/CyberPrata.git
 
 git add . (depois que clonar e modificar algo)
 
